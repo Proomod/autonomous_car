@@ -1,4 +1,4 @@
-# Project Title
+# Autonomous car
 
 ## Table of Contents
 
@@ -9,37 +9,51 @@
 
 ## About <a name = "about"></a>
 
-Write about 1-2 paragraphs describing the purpose of your project.
+This is a simple lane follower bot realized with raspberrypi 4 
 
 ## Getting Started <a name = "getting_started"></a>
+
+Hook up the wires to your motor connect a camera and you are good to train the model
+
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them.
+OpenCV 
+Tensorflowlite for running a model
+opencv 
 
 ```
-Give examples
+pip install opencv-contrib-python
+
 ```
+
+create a tflite
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running.
-
-Say what the step will be
-
+first you need to collect data using Datacollection module
 ```
-Give the example
+python dataCollectionMain.py
 ```
 
-And repeat
+train the collected data in google colab
+
+
+
+run main program to see the result
 
 ```
-until finished
+python carmain.py
 ```
-
-End with an example of getting some data out of the system or using it for a little demo.
+<!--  -->
+<!-- And repeat -->
+<!--  -->
+<!-- ``` -->
+<!-- until finished -->
+<!-- ``` -->
+<Img src='image1.jpg" alt="caputured Image:">
 
 ## Usage <a name = "usage"></a>
 
