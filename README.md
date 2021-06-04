@@ -53,7 +53,7 @@ python carmain.py
 <!-- ``` -->
 <!-- until finished -->
 <!-- ``` -->
-<img src='image1.jpg" alt="caputured Image:">
+<img src='image1.jpg" alt="caputured Image:"/>
 
 ## Usage <a name = "usage"></a>
 
